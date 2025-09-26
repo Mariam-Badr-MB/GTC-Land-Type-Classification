@@ -163,4 +163,4 @@ uploaded = files.upload()  # upload kaggle.json
 Contributions are welcome! Feel free to fork the repo, create a new branch, and submit a pull request.
 
 ## 📜 License
-This project is licensed under the MIT License.
+This project is licensed under the GNU v3 License.
