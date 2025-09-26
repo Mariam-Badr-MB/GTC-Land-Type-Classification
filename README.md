@@ -31,6 +31,7 @@ Final deliverables include a **trained model**, **performance report**, and an *
 | Model Architecture & Evaluation | Mariam Mohamed |
 | Deployment & Dashboard | Mariam Badr |
 | Video & GitHub README | Eman Elnaggar & Mariam Elnemrawy |
+| Presentation | Mariam Ahmed |
 
 ---
 
