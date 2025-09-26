@@ -29,7 +29,7 @@ Final deliverables include a **trained model**, **performance report**, and an *
 |------|-------------|
 | Data Pipeline, EDA & Feature Engineering | Roaa Raafat |
 | Model Architecture & Evaluation | Mariam Mohamed Sayed Mohamed |
-| Deployment & Dashboard | Mariam Badr |
+| Deployment & Web interface | Mariam Badr |
 | GitHub README | Eman Elnaggar & Mariam Elnemrawy & Mariam Badr |
 | Video | Eman Elnaggar & Mariam Elnemrawy |
 | Presentation | Mariam Ahmed |
