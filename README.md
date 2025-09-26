@@ -29,9 +29,8 @@ Final deliverables include a **trained model**, **performance report**, and an *
 |------|-------------|
 | Data Pipeline, EDA & Feature Engineering | Roaa Raafat |
 | Model Architecture & Evaluation | Mariam Mohamed Sayed Mohamed |
-| Deployment & Web interface | Mariam Badr |
-| GitHub README | Eman Elnaggar & Mariam Elnemrawy & Mariam Badr |
-| Video | Eman Elnaggar & Mariam Elnemrawy |
+| Deployment & Dashboard | Mariam Badr |
+| Video & GitHub README | Eman Elnaggar & Mariam Elnemrawy |
 | Presentation | Mariam Ahmed |
 
 ---
@@ -68,6 +67,15 @@ Final deliverables include a **trained model**, **performance report**, and an *
 - Tasks:
   - Geospatial-safe augmentations (rotation, flip, jitter, crop/zoom)  
   - Normalization & preprocessing utilities  
+### 4 Modeling & Evaluation 
+- Script: `gtc_03_modeling-6.ipynb`  
+- Tasks:
+-  Load and preprocess the EuroSAT dataset (RGB satellite images for 10-class land use classification) with custom transforms including resizing to 224x224, data augmentation (random flips, rotations, jitter, affine), and normalization (mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]).
+-  Split dataset into train/validation/test (60%/20%/20%) and create DataLoaders with batch size 64.
+-  Define and train multiple models: a custom CNN (VGG-inspired) and transfer learning models (ResNet-50, EfficientNet-B0, Vision Transformer B-16), all fine-tuned for 10 classes.
+-  Train with Cross-Entropy loss, Adam optimizer (lr=0.001, weight decay=1e-4), mixed precision (AMP), LR scheduler (ReduceLROnPlateau), and early stopping (patience=10).
+-  Evaluate models on test set with accuracy, precision/recall/F1, confusion matrix, and training history plots.
+-  Save best model checkpoints based on validation accuracy.
 
 ---
 
@@ -76,7 +84,7 @@ Final deliverables include a **trained model**, **performance report**, and an *
 - `dataset_statistics.json` & plots (`dataset_statistics.png`, `sample_images.png`)  
 - `augmentation_examples.png`  
 - Engineered features in `data/features/`
-
+- Trained model in `models/best_efficientnet_b0_model.pth`
 ---
 
 ## ⚡ Quick Start (Colab)
@@ -102,7 +110,7 @@ uploaded = files.upload()  # upload kaggle.json
 ### 4- Run Notebooks
  - GTC_01_data_pipeline.ipynb
  - GTC_02_eda_visualization.ipynb
-
+ - gtc-03-modeling-6
 --- 
 
 ###  View Presentation
