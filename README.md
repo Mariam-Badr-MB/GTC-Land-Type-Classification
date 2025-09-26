@@ -118,6 +118,8 @@ uploaded = files.upload()  # upload kaggle.json
 
 ---
 
+### Video
+[🎨 video]([https://www.canva.com/design/DAG0Dh60JoA/yx_ZVqEv5-SEXtxBMFXqUg/edit?utm_content=DAG0Dh60JoA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://drive.google.com/drive/folders/1MuOkc2Cf2UQxZ_B1YSrYcX7EPpZchhYe?usp=sharing))
 
 ## 📬 Contact
 - **Mariam Badr Yehia**: 
