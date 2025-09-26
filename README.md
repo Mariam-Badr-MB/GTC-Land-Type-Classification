@@ -14,7 +14,8 @@ performance report, and an interactive application for testing land classificati
 * EDA & Feature engineering --> Roaa Raafat &
 * Model Architecture --> Mariam Mohamed
 * Evaluation & Explainability -->
-* Deployment & dashboard --> Mariam Badr & 
+* Deployment & dashboard --> Mariam Badr
+* presentation --> Mariam Ahmed 
 
 
 # Dataset 
