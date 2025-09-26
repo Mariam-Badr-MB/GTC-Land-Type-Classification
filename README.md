@@ -159,8 +159,8 @@ uploaded = files.upload()  # upload kaggle.json
     <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" width="20"/>
   </a>
 
-## 📜 License
-This project is licensed under the MIT License.
-
 ## 🤝 Contributing
 Contributions are welcome! Feel free to fork the repo, create a new branch, and submit a pull request.
+
+## 📜 License
+This project is licensed under the MIT License.
