@@ -119,7 +119,7 @@ uploaded = files.upload()  # upload kaggle.json
 ---
 
 ### Video
-[🎨 video]((https://drive.google.com/drive/folders/1MuOkc2Cf2UQxZ_B1YSrYcX7EPpZchhYe?usp=sharing))
+[Video](https://drive.google.com/drive/folders/1MuOkc2Cf2UQxZ_B1YSrYcX7EPpZchhYe?usp=sharing)
 
 ## 📬 Contact
 - **Mariam Badr Yehia**: 
