@@ -64,3 +64,5 @@ https://www.kaggle.com/datasets/apollo2506/eurosat-dataset
 
 * step 4. Run the Data Pipeline GTC_01_data_pipeline.ipynb
 * step 5. Run EDA & Visualization GTC_02_eda_visualization
+# presentation (canva link)
+https://www.canva.com/design/DAG0Dh60JoA/yx_ZVqEv5-SEXtxBMFXqUg/edit?utm_content=DAG0Dh60JoA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
