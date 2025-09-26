@@ -42,7 +42,7 @@ Final deliverables include a **trained model**, **performance report**, and an *
 
 ## 🛠️ Workflow
 
-### 1️⃣ Data Pipeline
+### 1- Data Pipeline
 - Notebook: `GTC_01_data_pipeline.ipynb`  
 - Script: `src/data_pipeline.py`  
 - Tasks:
@@ -51,7 +51,7 @@ Final deliverables include a **trained model**, **performance report**, and an *
   - Generates dataset statistics & class maps  
   - Outputs train/validation/test splits  
 
-### 2️⃣ Exploratory Data Analysis
+### 2- Exploratory Data Analysis
 - Notebook: `GTC_02_eda_visualization.ipynb`  
 - Tasks:
   - Class distribution plots  
@@ -62,12 +62,12 @@ Final deliverables include a **trained model**, **performance report**, and an *
   - Class-level mean RGB statistics  
   - Feature extraction (color histograms, texture descriptors)  
 
-### 3️⃣ Feature Engineering
+### 3- Feature Engineering
 - Script: `src/features.py`  
 - Tasks:
   - Geospatial-safe augmentations (rotation, flip, jitter, crop/zoom)  
   - Normalization & preprocessing utilities  
-### 4 Modeling & Evaluation 
+### 4- Modeling & Evaluation 
 - Script: `gtc_03_modeling-6.ipynb`  
 - Tasks:
 -  Load and preprocess the EuroSAT dataset (RGB satellite images for 10-class land use classification) with custom transforms including resizing to 224x224, data augmentation (random flips, rotations, jitter, affine), and normalization (mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]).
